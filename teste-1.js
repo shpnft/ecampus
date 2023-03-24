@@ -8,7 +8,7 @@ input.onchange = e => {
         reader.onload = readerEvent => {
                 var ttt={};
                 var content = JSON.parse(readerEvent.target.result);
-                content.forEach(x => ttt[x[0]]=x.slice(1));
+                content.forEach(x => ttt[x[0]]=x.slice(2));
                 for (var i=0; i < bob.length; i++) {
                         const asd=Array.from(bob[i].cells).map(td => td.firstChild);
                         var mat=asd[1].textContent;
