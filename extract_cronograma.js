@@ -1,16 +1,24 @@
-javascript: (() => {
-        data = Array.from(document.querySelectorAll("#updateMeCronograma > div.list > table > tbody > tr td:nth-child(4)")).map(td => td.innerHTML);
-        data = JSON.stringify(data, undefined, 4);
-        var blob = new Blob([data], {
-                type: 'text/json'
-        }),
-                e = document.createEvent('MouseEvents'),
-                a = document.createElement('a');
+javascript: (function () {
+        var table = document.querySelector("#updateMeCronograma > div.list > table");
 
-        a.download = "cronograma.json";
-        a.href = window.URL.createObjectURL(blob);
-        a.dataset.downloadurl = ['text/json', a.download, a.href].join(':');
-        e.initMouseEvent('click', true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
-        a.dispatchEvent(e);
+        /*  https://stackoverflow.com/a/60196347/20287521 */
+        var data = [];
+        for (var i = 1; i < table.rows.length; i++) {
+                var tableRow = table.rows[i];
+                var rowData = [];
+                for (var j = 0; j < tableRow.cells.length; j++) {
+                        rowData.push(tableRow.cells[j].innerHTML);
+                }
+                data.push(rowData);
+        }
+
+        /* https://stackoverflow.com/a/30800715/20287521 */
+        var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data));
+        var downloadAnchorNode = document.createElement('a');
+        downloadAnchorNode.download = "cronograma.json";
+        downloadAnchorNode.href = dataStr;
+        document.body.appendChild(downloadAnchorNode); /* required for firefox */
+        downloadAnchorNode.click();
+        downloadAnchorNode.remove();
 }
 )();
