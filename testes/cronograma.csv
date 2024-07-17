@@ -1,0 +1,76 @@
+"Data
+(DD/MM/YYYY)",Carga Horária,"Tipo de Aula
+(0: Teórica, 1: Prática)",Conteúdo,"Professor
+(0: Primeiro professor, 1: Segundo professor etc)"
+22/04/2024,2,0,"* Apresentação do plano de ensino 
+* Revisão de torque 
+* Equilíbrio estático	",0
+24/04/2024,2,0,Exemplos de problemas envolvendo equilíbrio estático e dicas de como abordá-los: parte 1,0
+29/04/2024,2,0,Exemplos de problemas envolvendo equilíbrio estático e dicas de como abordá-los: parte 2,0
+06/05/2024,2,0,Exemplos de problemas envolvendo equilíbrio estático e dicas de como abordá-los: parte 3,0
+08/05/2024,2,0,"* Mecânica dos fluidos: conceitos básicos 
+* Hidrostática 
+* Exemplos de problemas envolvendo hidrostática e dicas de como abordá-los",0
+13/05/2024,2,0,"* Introdução à dinâmica dos fluidos 
+* Classificando fluidos e escoamentos 
+* Equação de Bernoulli	
+",0
+15/05/2024,2,0,Exemplos de problemas envolvendo equação de Bernoulli e dicas de como abordá-los,0
+20/05/2024,2,0,Atividade avaliativa,0
+22/05/2024,2,0,"* Movimento harmônico simples (MHS) 
+* Física e matemática do MHS",0
+27/05/2024,2,0,Exemplos de problemas envolvendo MHS e dicas de como abordá-los,0
+29/05/2024,2,0,"* Oscilações amortecidas 
+* Física e matemática das oscilações amortecidas 
+* Oscilações forçadas 
+* Ressonância
+",0
+03/06/2024,2,0,"* Exemplos de problemas envolvendo oscilações amortecidas e dicas de como abordá-los 
+* Exemplos de problemas envolvendo ressonância e dicas de como abordá-los
+",0
+05/06/2024,2,0,"* Introdução a ondas 
+* Função de onda 
+* Equação da onda",0
+10/06/2024,2,0,Exemplos de problemas envolvendo equação e função de onda e dicas de como abordá-los,0
+12/06/2024,2,0,"* Reflexão de ondas 
+* Ondas estacionárias 
+* Número de nós e ventres",0
+17/06/2024,2,0,Exemplos de problemas envolvendo ondas estacionárias e dicas de como abordá-los,0
+19/06/2024,2,0,"* Ondas sonoras
+* Velocidade das ondas sonoras em diversos meios",0
+24/06/2024,2,0,"* Efeito Doppler
+* Exemplos de problemas envolvendo o efeito Doppler e dicas de como abordá-los ",0
+26/06/2024,2,0,* Revisão,0
+01/07/2024,2,0,Atividade avaliativa,0
+03/07/2024,2,0,"* Introdução à Termodinâmica 
+* Conceito de temperatura 
+* Lei zero da termodinâmica 
+* Escalas de temperatura",0
+08/07/2024,2,0,"* Conceito de calor e trabalho 
+* Gases ideais 
+* Trabalho realizado por um gás ideal 
+* Capacidade térmica e calor específico 
+* Calor latente",0
+10/07/2024,2,0,"* Exemplos de problemas envolvendo calor, temperatura e trabalho realizado por um gás ideal e dicas de como abordá-los",0
+15/07/2024,2,0,"* Primeira lei da Termodinâmica 
+* Diagramas PV 
+* Processos termodinâmicos 
+* Ciclo termodinâmico	",0
+17/07/2024,2,0,"* Comparação entre processos isotérmicos e adiabáticos 
+* Calor específico de gases ideais 
+* Máquinas térmicas 
+* Ciclo de Carnot 
+* Processos reversíveis e irreversíveis	",0
+22/07/2024,2,0,"* Segunda lei da Termodinâmica 
+* Enunciado de Clausius 
+* Enunciado de Kelvin-Planck 
+* Conceito de entropia 
+* Função de estado",0
+24/07/2024,2,0,Exemplos de problemas envolvendo máquinas térmicas e entropia e dicas de como abordá-los,0
+29/07/2024,2,0,"* Teoria cinética dos gases 
+* Velocidade média quadrática 
+* Temperatura e pressão
+",0
+30/07/2024,2,0,"* Reposição de aula devido ao feriado do dia 01/05/2024 a ser acertada com os alunos (data provisória) 
+* Revisão",0
+31/07/2024,2,0,Atividade avaliativa,0
