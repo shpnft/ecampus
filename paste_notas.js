@@ -22,6 +22,7 @@ javascript: (function () {
                         /* ignora sem avisar #yolo */
                         if (flag) bolonhesa.push(temp); else bolonhesa.push([]);
                 }
+                entrada.close();
                 /* console.log(bolonhesa); */
 
                 const tabela=document.querySelectorAll("tr.tbodyBoletim:not(.trancado)");
