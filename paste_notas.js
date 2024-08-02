@@ -30,10 +30,6 @@ javascript: (function () {
                         const linha=tabela[i].querySelectorAll("input.nota:not([disabled])");
                         for (let j=0; j < linha.length; j++) {
                                 if (j+1 > bolonhesa[i].length) break;
-                                /* FIXME: não consigo reproduzir os eventos de escrever
-                                 * a nota manualmente... Só falta escrever caracter
-                                 * por caracter...
-                                 */
                                 linha[j].value = bolonhesa[i][j];
                                 linha[j].dispatchEvent(new Event('blur'));
                         }
