@@ -10,7 +10,7 @@ with open(args.json_filename,"r",encoding="utf-8") as f:
     dados = json.load(f)
 
 for l in dados:
-    l[2] = {"Teórica":0, "Prática":1}[l[2]]
+    l[2] = {"Teórica":2, "Prática":3}[l[2]]
     l[4] = 0
 
 dados.insert(0,["Data\n(DD/MM/YYYY)",
